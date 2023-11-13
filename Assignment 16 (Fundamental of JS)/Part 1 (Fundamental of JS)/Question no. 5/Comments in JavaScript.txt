@@ -1,0 +1,25 @@
+Comments in JavaScript are used to annotate and document your code. They are ignored by the JavaScript interpreter and do not affect the execution of the program. Adding comments to your code is crucial for several reasons:
+
+
+Code Documentation:
+Comments serve as documentation for your code. They explain the purpose, functionality, or any important details about the code, making it easier for other developers (or even yourself) to understand the codebase.
+
+Debugging:
+Comments can be used to temporarily disable or "comment out" a section of code during debugging. This allows you to test different parts of your code without completely removing them.
+
+Collaboration:
+When multiple developers are working on a project, comments help in collaboration by providing context and explanations for different parts of the code. This can be especially important when others need to review or modify your code.
+
+Code Readability:
+Well-commented code is more readable. Clear and concise comments can enhance the understanding of complex algorithms, logic, or business rules implemented in your code.
+
+Single-Line Comment:
+// This is a single-line comment
+let variable = 42;
+
+/*
+  This is a multi-line comment.
+  It can span multiple lines and is often used for more extensive explanations.
+*/
+let anotherVariable = "Hello, World!";
+

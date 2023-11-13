@@ -1,0 +1,65 @@
+Operators in JavaScript can be categorized based on their functionality. Here are the main categories of operators:
+
+1. Arithmetic Operators:
+
+Perform mathematical operations on numeric values.
+Examples:
+
+let x = 10;
+let y = 5;
+
+let addition = x + y;    // Addition
+let subtraction = x - y; // Subtraction
+let multiplication = x * y; // Multiplication
+let division = x / y;    // Division
+let modulus = x % y;      // Modulus (remainder)
+let increment = x++;      // Increment
+let decrement = y--;      // Decrement
+
+2. Comparison Operators:
+
+Compare values and return a Boolean result.
+Examples:
+let a = 10;
+let b = 5;
+
+let isEqual = a == b;    // Equal to
+let isNotEqual = a != b;  // Not equal to
+let isGreater = a > b;    // Greater than
+let isLess = a < b;       // Less than
+let isGreaterOrEqual = a >= b;  // Greater than or equal to
+let isLessOrEqual = a <= b;     // Less than or equal to
+
+3. Logical Operators:
+
+Combine or manipulate Boolean values.
+Examples:
+let p = true;
+let q = false;
+
+let andResult = p && q;  // Logical AND
+let orResult = p || q;   // Logical OR
+let notResult = !p;      // Logical NOT
+
+4. Assignment Operators:
+
+Assign values to variables.
+Examples:
+let x = 10;
+
+x += 5;  // Equivalent to x = x + 5;
+x -= 3;  // Equivalent to x = x - 3;
+x *= 2;  // Equivalent to x = x * 2;
+x /= 4;  // Equivalent to x = x / 4;
+
+5. Unary Operators:
+
+Operate on a single operand.
+Examples:
+let num = 5;
+
+let negation = -num;  // Unary negation
+let positive = +num;  // Unary plus (rarely used)
+let increment = ++num; // Pre-increment
+let decrement = --num; // Pre-decrement
+
